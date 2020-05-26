@@ -13,7 +13,6 @@ class PostCreate extends React.Component {
         await axios.post('http://localhost:4000/posts', {
             title
         })
-        console.log(title)
         this.setState({title: ''})
     }
     render() {
