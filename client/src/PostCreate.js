@@ -20,7 +20,7 @@ class PostCreate extends React.Component {
             <div>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                        <label>Title</label>
+                        <label>Create Post</label>
                         <input value={this.state.title} onChange={(e) => this.setState({title: e.target.value})} className="form-control" />
                     </div>
                     <button className="btn btn-primary">submit</button>
