@@ -10,7 +10,7 @@ class CommentCreate extends React.Component {
         event.preventDefault();
         var content = this.state.content;
         var postId = this.props.postId;
-        await axios.post(`http://localhost:4001/posts/${postId}/comments`,{
+        await axios.post(`http://myposts.com/posts/${postId}/comments`,{
             content
         });
         this.setState({content: ''});

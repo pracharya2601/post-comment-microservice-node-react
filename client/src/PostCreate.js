@@ -10,7 +10,7 @@ class PostCreate extends React.Component {
     onSubmit = async event => {
         event.preventDefault();
         var title = this.state.title;
-        await axios.post('http://localhost:4000/posts', {
+        await axios.post('http://myposts.com/posts/create', {
             title
         })
         this.setState({title: ''})
