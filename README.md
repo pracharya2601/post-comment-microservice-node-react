@@ -66,7 +66,7 @@ Get into the K8s derectory
 <h3>Screenshot</h3>
 
 <div align="center">
-    ![](microservice.gif)
+    <img src="assets/microservice.gif" width="700" height="auto" />
 </div>
 <div align="center">
     <img src="assets/microservice.png" width="700px"> 
